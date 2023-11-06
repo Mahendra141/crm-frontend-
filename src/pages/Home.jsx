@@ -16,7 +16,7 @@ function Home() {
 
         try {
 
-            const response = await axios.get("api/customers/get-customers-by-id", {
+            const response = await axios.get("https://crm-server-rrjd.onrender.com/api/customers/get-customers-by-id", {
                 headers: {
                     Authorization: `Bearer ${localStorage.getItem('token')}`
                 },
