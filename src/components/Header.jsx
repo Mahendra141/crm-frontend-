@@ -9,7 +9,7 @@ function Header() {
 
     const handleLogout = async () => {
         try {
-            const response = await axios.get("/api/users/logout")
+            const response = await axios.get("https://crm-server-rrjd.onrender.com/api/users/logout")
             if (response.data.success) {
                 message.success(response.data.message);
                 localStorage.removeItem('token');
