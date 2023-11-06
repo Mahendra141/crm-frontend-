@@ -32,7 +32,7 @@ function AddUser() {
         event.preventDefault()
 
         try {
-            const response = await axios.post("/api/customers/add-customer", customer, {
+            const response = await axios.post("https://crm-server-rrjd.onrender.com/api/customers/add-customer", customer, {
                 headers: {
                     Authorization: `Bearer ${localStorage.getItem('token')}`
                 },
