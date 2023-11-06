@@ -13,7 +13,7 @@ function Register() {
 
         try {
 
-            const response = await axios.post("/api/users/register", values)
+            const response = await axios.post("https://crm-server-rrjd.onrender.com/api/users/register", values)
 
             if (response.data.success) {
                 message.success(response.data.message);
