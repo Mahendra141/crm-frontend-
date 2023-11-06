@@ -22,7 +22,7 @@ function EditUser() {
 
         try {
 
-            const response = await axios.get(`/api/customers/edit-customer/${id}`, {
+            const response = await axios.get(`https://crm-server-rrjd.onrender.com/api/customers/edit-customer/${id}`, {
             });
             if (response.data.success) {
                 setClient(response.data.data[0])
