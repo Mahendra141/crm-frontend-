@@ -2,8 +2,8 @@
 
 Welcome to the Customer Relationship Management (CRM) app repository. This MERN (MongoDB, Express.js, React, Node.js) application allows you to manage customer data and features user authentication. Below are the live links to access the application:
 
-- **Frontend**:<h1>[View CRM Client](https://master--crmclient.netlify.app/)</h1>
-- **Backend**: <h1>[Access CRM Server](https://crm-server-rrjd.onrender.com/)/<h1>
+- **Frontend**:<h1>[Client](https://master--crmclient.netlify.app/)</h1>
+- **Backend**: <h1>[CRM Server](https://crm-server-rrjd.onrender.com/)<h1>
 
 ## Description
 
